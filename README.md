@@ -1,3 +1,7 @@
+# Responsive Web Application
+
+Dependency explanation: [Updating Package Dependencies](https://www.pluralsight.com/guides/add-a-dependency-to-react-in-package.json-for-a-react-component)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
