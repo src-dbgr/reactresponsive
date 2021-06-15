@@ -12,12 +12,12 @@ import {
   NavMenu,
 } from "./NavbarElements";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">dolla</NavLogo>
-        <MobileIcon>
+        <MobileIcon onClick={props.toggle}>
           <FaBars />
         </MobileIcon>
         <NavMenu>
