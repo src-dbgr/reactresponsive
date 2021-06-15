@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  SidebarContainer,
-  Icon,
   CloseIcon,
-  SidebarWrapper,
+  Icon,
+  SidebarContainer,
   SidebarLink,
   SidebarMenu,
-  SideBtnWrap,
   SidebarRouter,
+  SidebarWrapper,
+  SideBtnWrap,
 } from "./SidebarElements";
 
 const Sidebar = () => {
