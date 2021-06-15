@@ -31,7 +31,7 @@ const Navbar = (props) => {
             <NavLinks to="services">Services</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="signup">Sign Up</NavLinks>
+            <NavLinks to="/signin">Sign Up</NavLinks>
           </NavItem>
         </NavMenu>
         <NavBtn>

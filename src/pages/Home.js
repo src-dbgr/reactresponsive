@@ -4,8 +4,8 @@ import Navigation from "../components/Navigation/Navigation";
 import HeroSection from "../components/Sections/HeroSection/HeroSection";
 import {
   homeObjOne,
-  homeObjTwo,
   homeObjThree,
+  homeObjTwo,
 } from "../components/Sections/InfoSection/Data";
 import InfoSection from "../components/Sections/InfoSection/InfoSection";
 import ServicesSection from "../components/Sections/Services/ServicesSection";
