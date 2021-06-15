@@ -2,7 +2,11 @@
 
 import Navigation from "../components/Navigation/Navigation";
 import HeroSection from "../components/Sections/HeroSection/HeroSection";
-import { homeObjOne } from "../components/Sections/InfoSection/Data";
+import {
+  homeObjOne,
+  homeObjTwo,
+  homeObjThree,
+} from "../components/Sections/InfoSection/Data";
 import InfoSection from "../components/Sections/InfoSection/InfoSection";
 
 const Home = () => {
@@ -11,6 +15,8 @@ const Home = () => {
       <Navigation />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} />
     </>
   );
 };
