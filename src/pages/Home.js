@@ -1,9 +1,9 @@
 // import React, { useState, useEffect } from "react";
 
 import React, { useState } from "react";
-import HeroSection from "../components/HeroSection/HeroSection";
-import Navbar from "../components/Navbar/Navbar";
-import Sidebar from "../components/Sidebar/Sidebar";
+import HeroSection from "../components/Sections/HeroSection/HeroSection";
+import Navbar from "../components/Navigation/Navbar/Navbar";
+import Sidebar from "../components/Navigation/Sidebar/Sidebar";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);

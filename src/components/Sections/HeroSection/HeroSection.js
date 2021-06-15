@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Video from "../../media/videos/video.mp4";
-import { Button } from "../UiElements/Button";
+import Video from "../../../media/videos/video.mp4";
+import { Button } from "../../UiElements/Button";
 import {
   ArrowForward,
   ArrowRight,
