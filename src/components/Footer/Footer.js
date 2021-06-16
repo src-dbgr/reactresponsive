@@ -49,7 +49,6 @@ function Footer() {
               <FooterLink to="signin">Investors</FooterLink>
               <FooterLink to="signin">Terms of Service</FooterLink>
             </FooterLinkItems>
-            >
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
