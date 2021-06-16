@@ -18,6 +18,8 @@ const Navbar = (props) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   function changeNav() {
+    // check whether scroll bar is close to top, in order to make
+    // the nav bar transparent
     if (window.scrollY >= 80) {
       setScrollNav((scrollNav) => true);
     } else {

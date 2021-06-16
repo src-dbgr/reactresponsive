@@ -22,9 +22,19 @@ function SigninComponent() {
             <Form action="#">
               <FormH1>Sign in to your account</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
-              <FormInput type="email" required />
+              <FormInput
+                type="email"
+                required
+                autoComplete="username"
+                placeholder="Email"
+              />
               <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" required />
+              <FormInput
+                type="password"
+                required
+                autoComplete="current-password"
+                placeholder="Password"
+              />
               <FormButton type="submit">Continue</FormButton>
               <Text>Forgot password</Text>
             </Form>
