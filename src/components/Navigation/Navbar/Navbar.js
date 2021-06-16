@@ -26,7 +26,13 @@ const Navbar = (props) => {
   }
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    let isMounted = true; // mutable flag
+    window.addEventListener("scroll", () => {
+      if (isMounted) changeNav(); // change navigation only if mounted
+    });
+    return () => {
+      isMounted = false; // use cleanup to toggle falue if unmounted
+    };
   }, [scrollNav]);
 
   function toggleHome() {
