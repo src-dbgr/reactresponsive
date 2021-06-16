@@ -35,12 +35,12 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "services",
+  id: "signup",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: "Strong Community",
-  headline: "Support by Clients",
+  headline: "Sign Up",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonLabel: "Get started",
